@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,30 +27,30 @@ namespace Winforms_TheInterface
 
         private void colaBtn_Click(object sender, EventArgs e)
         {
-            Cola cola = new Cola();
             if (index < items.Length)
             {
+                Cola cola = new Cola();
                 items[index] = cola;
                 index++;
             }
         }
-
-        private void kinlyBtn_Click(object sender, EventArgs e)
+        private void kinleyBtn_Click(object sender, EventArgs e)
         {
-            Kinly kinly = new Kinly();
             if (index < items.Length)
             {
-                items[index] = kinly;
+                Kinley kinley = new Kinley();
+                items[index] = kinley;
                 index++;
             }
         }
 
         private void printListBtn_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < items.Length; i++)
+            for (int i = 0; i < items.Length && items[i] != null; i++)
             {
-                MessageBox.Show("The Price of:" + items[i].GetName() + "is:" + items[i].GetPrice());
+                MessageBox.Show("The Price of:" + items[i].GetName() + " is:" + items[i].GetPrice());
             }
         }
+
     }
 }

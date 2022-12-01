@@ -19,7 +19,7 @@ namespace Winforms_TheInterface
         }
     }
 
-    internal class Kinly : IItem
+    internal class Kinley : IItem
     {
         public int GetPrice()
         {
@@ -28,7 +28,7 @@ namespace Winforms_TheInterface
 
         public string GetName()
         {
-            return "Kinly";
+            return "Kinley";
         }
     }
 }

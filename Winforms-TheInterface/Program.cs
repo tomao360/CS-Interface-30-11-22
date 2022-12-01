@@ -11,7 +11,14 @@ namespace Winforms_TheInterface
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+           
+
+            //Moon moon = new Moon();
+            //Rectangle rectangle = new Rectangle();
+            //IShape shape = Manager.INSTANCE.HighestVerticesNum(moon, rectangle);
+            //Console.ReadLine();
+
+            Application.Run(new Form3());
         }
     }
 }

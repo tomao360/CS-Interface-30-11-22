@@ -30,7 +30,7 @@
         {
             this.getItemBtn = new System.Windows.Forms.Button();
             this.colaBtn = new System.Windows.Forms.Button();
-            this.kinlyBtn = new System.Windows.Forms.Button();
+            this.kinleyBtn = new System.Windows.Forms.Button();
             this.printListBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,18 +63,18 @@
             this.colaBtn.UseVisualStyleBackColor = false;
             this.colaBtn.Click += new System.EventHandler(this.colaBtn_Click);
             // 
-            // kinlyBtn
+            // kinleyBtn
             // 
-            this.kinlyBtn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.kinlyBtn.Font = new System.Drawing.Font("Showcard Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.kinlyBtn.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.kinlyBtn.Location = new System.Drawing.Point(243, 82);
-            this.kinlyBtn.Name = "kinlyBtn";
-            this.kinlyBtn.Size = new System.Drawing.Size(94, 29);
-            this.kinlyBtn.TabIndex = 2;
-            this.kinlyBtn.Text = "Kinly";
-            this.kinlyBtn.UseVisualStyleBackColor = false;
-            this.kinlyBtn.Click += new System.EventHandler(this.kinlyBtn_Click);
+            this.kinleyBtn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.kinleyBtn.Font = new System.Drawing.Font("Showcard Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.kinleyBtn.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.kinleyBtn.Location = new System.Drawing.Point(243, 82);
+            this.kinleyBtn.Name = "kinleyBtn";
+            this.kinleyBtn.Size = new System.Drawing.Size(94, 29);
+            this.kinleyBtn.TabIndex = 2;
+            this.kinleyBtn.Text = "Kinley";
+            this.kinleyBtn.UseVisualStyleBackColor = false;
+            this.kinleyBtn.Click += new System.EventHandler(this.kinleyBtn_Click);
             // 
             // printListBtn
             // 
@@ -129,7 +129,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.printListBtn);
-            this.Controls.Add(this.kinlyBtn);
+            this.Controls.Add(this.kinleyBtn);
             this.Controls.Add(this.colaBtn);
             this.Controls.Add(this.getItemBtn);
             this.Name = "Form2";
@@ -143,7 +143,7 @@
 
         private Button getItemBtn;
         private Button colaBtn;
-        private Button kinlyBtn;
+        private Button kinleyBtn;
         private Button printListBtn;
         private Label label1;
         private Label label2;

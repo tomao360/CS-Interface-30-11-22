@@ -17,3 +17,4 @@ C:\Users\97252\source\repos\Winforms-TheInterface\Winforms-TheInterface\obj\Debu
 C:\Users\97252\source\repos\Winforms-TheInterface\Winforms-TheInterface\obj\Debug\net6.0-windows\ref\Winforms-TheInterface.dll
 C:\Users\97252\source\repos\Winforms-TheInterface\Winforms-TheInterface\obj\Debug\net6.0-windows\Winforms_TheInterface.Form2.resources
 C:\Users\97252\source\repos\Winforms-TheInterface\Winforms-TheInterface\obj\Debug\net6.0-windows\Winforms_TheInterface.Properties.Resources.resources
+C:\Users\97252\source\repos\Winforms-TheInterface\Winforms-TheInterface\obj\Debug\net6.0-windows\Winforms_TheInterface.Form3.resources
